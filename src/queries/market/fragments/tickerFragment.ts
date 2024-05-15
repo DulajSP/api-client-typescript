@@ -21,6 +21,12 @@ export const TICKER_FRAGMENT = gql`
     usdLastPrice {
       ...currencyPriceFields
     }
+    bestAskPrice {
+      ...currencyPriceFields
+    }
+    bestBidPrice {
+      ...currencyPriceFields
+    }
   }
   ${CURRENCY_AMOUNT_FRAGMENT}
   ${CURRENCY_PRICE_FRAGMENT}
