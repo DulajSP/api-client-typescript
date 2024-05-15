@@ -31,6 +31,8 @@ export interface Ticker {
   volume24h: CurrencyAmount
   lastPrice: CurrencyPrice
   usdLastPrice: CurrencyPrice
+  bestAskPrice: CurrencyPrice
+  bestBidPrice: CurrencyPrice
 }
 
 export interface OrderBook {
